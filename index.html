@@ -4,31 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana speak</title>
-    <style>
-        textarea{
-            text-align: center;
-            width: 90%;
-            display: block;
-            margin: 1rem;
-            height: 10vh;
-            padding: 1rem;
-        }
-        h1, h3 {
-            text-align: center;
-        }
-        #output {
-            text-align: center;
-            width: 90%;
-            display: block;
-            margin: 1rem;
-            height: 10vh;
-            padding: 1rem;
-            border: 1px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>talk banana</h1>
+    <header>
+        <h1>talk banana</h1>
+    </header>
 
     <textarea id="txt-input" placeholder="enter anything in english"></textarea>
 
@@ -36,6 +17,10 @@
 
     <h3>Output will come here:</h3>
     <div id="output"></div>
+    <footer>
+        <h1>about</h1>
+        <p>The words that minions (from minions the movie) speak, actually have a meaning and this is a custom web-app which can translate regular english to their language</p>
+    </footer>
     <script type="text/javascript" src="app.js"></script>
 </body>
 
