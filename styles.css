@@ -25,8 +25,8 @@ body {
 #txt-input {
 
     margin-top: 7.5rem;
-    width: 10rem;
-    height: 2rem;
+    width: 13rem;
+    height: 3rem;
     display: block;
 }
 #btn-translate {
@@ -42,8 +42,8 @@ textarea, button, #output {
 
 #output {
 
-    width: 10rem;
-    height: 2rem;
+    width: 13rem;
+    height: 8rem;
     border: 1px solid black;
 }
 
