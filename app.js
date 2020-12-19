@@ -12,8 +12,7 @@ function performFetch(text) {
 
     fetch(urlConstructor(text))
     .then(function responseHandler(response) {return response.json()})
-    .then (function sendJSON(json){outputField.innerText =  json.contents.translated + " " + 
-    json.contents.translation})
+    .then (function sendJSON(json){outputField.innerText =  json.contents.translated})
     .catch((error) => {
         console.log(error);
     });
